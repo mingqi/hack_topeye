@@ -41,10 +41,10 @@ record = (data_dir, proxy) ->
         res_json = result.toString()
 
         if endswith(surl, 'patient/verify_credentials')
+          timestamp =  moment().format('YYYY-MM-DD-HH-mm')
           verify_file = path.join(data_dir, "verify-#{timestamp}.json")
           console.log "record verify data: #{verify_file}"
           fs.writeFileSync verify_file, result.toString()
-          timestamp =  moment().format('YYYY-MM-DD-HH-mm')
 
         if endswith surl, 'patient/scheme'
           gid = /gidset=([0-9]+)/.exec(body)[1]
