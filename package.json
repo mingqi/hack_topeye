@@ -1,0 +1,20 @@
+{
+  "name": "hack_topeye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "request": "*",
+    "moment": "*",
+    "glob": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:mathildetech/docker-daemon-proxy.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
