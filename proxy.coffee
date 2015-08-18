@@ -151,6 +151,9 @@ http_proxy = (req, res, handler) ->
   req_url = req.url
   req_method = req.method
   req_body = new Buffer(0)
+  if req_url.indexOf('topeye.cn') <= 0
+    res.end()
+    return
   req.on 'data', (chunk) ->
     req_body = Buffer.concat([req_body, chunk])
   req.on 'end', () ->
