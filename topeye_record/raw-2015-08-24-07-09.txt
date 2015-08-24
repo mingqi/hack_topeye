@@ -1,0 +1,36 @@
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/verify_credentials
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/16.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"16,0,0,220","Cookie":"PHPSESSID=en29utj49giu5ovd7ef104uuo7","Authorization":"Basic YmpzeTAwMDk5OjRmZjA4MGZiMmUzYzJkMzQ=","Content-Length":"51","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: login=1&source=dbs%5Fipad&local%5Fversion=3%2E0%2E2
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Sun, 23 Aug 2015 23:09:10 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":3,"msg":"\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/verify_credentials
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/16.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"16,0,0,220","Cookie":"PHPSESSID=en29utj49giu5ovd7ef104uuo7","Authorization":"Basic YmpzeTAwMDk5OjRmZjA4MGZiMmUzYzJkMzQ=","Content-Length":"51","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: login=1&source=dbs%5Fipad&local%5Fversion=3%2E0%2E2
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Sun, 23 Aug 2015 23:09:11 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":3,"msg":"\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/verify_credentials
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/16.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"16,0,0,220","Cookie":"PHPSESSID=en29utj49giu5ovd7ef104uuo7","Authorization":"Basic YmpzeTAwMDk5OjRmZjA4MGZiMmUzYzJkMzQ=","Content-Length":"51","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: login=1&source=dbs%5Fipad&local%5Fversion=3%2E0%2E2
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Sun, 23 Aug 2015 23:09:14 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":3,"msg":"\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/verify_credentials
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/16.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"16,0,0,220","Cookie":"PHPSESSID=en29utj49giu5ovd7ef104uuo7","Authorization":"Basic YmpzeTAwMDk5OjRmZjA4MGZiMmUzYzJkMzQ=","Content-Length":"51","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: login=1&source=dbs%5Fipad&local%5Fversion=3%2E0%2E2
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Sun, 23 Aug 2015 23:09:16 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":3,"msg":"\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef","data":[]}
+EOF
