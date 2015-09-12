@@ -110,9 +110,11 @@ fake_proxy = (data_dir) ->
       'Content-Type': 'text/html'
     if endswith(surl, 'patient/verify_credentials')
       verify_file_list = glob.sync(path.join(data_dir,"verify-*.json"))
+      console.log verify_file_list.length
       verify_file = verify_file_list[getRandomInt(0, verify_file_list.length - 1)]
       console.log "return verify data of #{verify_file}"
       timestamp = /verify-(.*).json/.exec(verify_file)[1]
+      console.log timestamp
 
       buff = fs.readFileSync(verify_file)
       zlib.gzip buff, (err, result) ->
