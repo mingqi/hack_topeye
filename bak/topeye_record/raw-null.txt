@@ -1,0 +1,27 @@
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/16.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"16,0,0,220","Cookie":"PHPSESSID=4v6fihobhk450s5jp87cu6oc13","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Tue, 18 Aug 2015 13:23:20 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/16.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"16,0,0,220","Cookie":"PHPSESSID=4v6fihobhk450s5jp87cu6oc13","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Tue, 18 Aug 2015 13:23:20 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/logout
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/16.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"16,0,0,220","Cookie":"PHPSESSID=4v6fihobhk450s5jp87cu6oc13","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Tue, 18 Aug 2015 13:23:23 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
