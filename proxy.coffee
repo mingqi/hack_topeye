@@ -47,14 +47,18 @@ record = (data_dir, proxy) ->
           fs.writeFileSync verify_file, result.toString()
 
         if endswith surl, 'patient/scheme'
-          gid = /gidset=([0-9]+)/.exec(body)[1]
-          pid = /pidset=([0-9]+)/.exec(body)[1]
+          console.log surl, body.toString()
+          r = /gidset=([0-9]+)/.exec(body)
+          gid = if r then r[1] else 'null'
+          r = /pidset=([0-9]+)/.exec(body)
+          pid = if r then r[1] else 'null'
+          console.log res_json
           obj = JSON.parse(res_json)
           pattern_row = obj['data']['patternRows1'][0]
           game_row = obj['data']['gameRows1'][0]
-          if pattern_row['pid'] != pid
+          if pid != 'null' and pattern_row['pid'] != pid
             throw new Error("response pid #{pattern_row['pid']} is not equal request #{pid}")
-          if game_row['gid'] != gid
+          if gid != 'null' and game_row['gid'] != gid
             throw new Error("response pid #{game_row['gid']} is not equal request #{pid}")
           pattern_file = path.join(data_dir, "pattern-#{pid}-#{timestamp}.json")
           game_file = path.join(data_dir, "game-#{gid}-#{timestamp}.json")
