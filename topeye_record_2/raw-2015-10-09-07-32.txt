@@ -1,0 +1,234 @@
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/verify_credentials
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Proxy-Connection":"keep-alive","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"51","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: login=1&source=dbs%5Fipad&local%5Fversion=3%2E0%2E4
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:32:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Set-Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304; path=/","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":{"pid":"14236","groupid":"0","extgroupid":"0","conversion":"0","username":"bjsy00099","hid":"137","realname":"\u90b5\u9038\u591a","gender":"1","birthday":"2010-01-30","email":"shaomq@gmail.com","qq":"","phone":"","mobi":"18910522669","postcode":"","address":"\u5317\u4eac","period":"2","state":"2","lasttreat":"1444299545","remainder":"0","periodunit":"60,60","periodgroupid":"1,1","imid":"0","operation":"1","casehistorytime":"1442214402","lastlogintime":"1444299542","addtime":"1436933466","hearttime":60,"loginamount":"34821","sumtime":"139","remark":"\u53f3\u773c\u7cbe\u7ec6\uff0c\u65e0\u7ea2\u84dd","did":"697","clientid":"3","spacetime":"30","logintime":1444347170,"onlinepay":false,"recipe":{"recipeRow":{"rid":"62704","pid":"14236","period":"2","advice":"","aid":"13","aid2":"0","times":"1","times2":"0","traintypeset":"9,1,1,1,8,8,1,1,1,1,1,9,1,1,7,1,1,1,1,1,1,9,7,1,1,1,1,1,1,1,1,7,1,9,1,1,1,7,1,2,1,1,7,1,1,1,1,1,1,9,1,1,1,8,1,1,1,1,1,7","pidset":"6,149,267;300,120,5;1,269,8;147,5,122;270,156,171;264,118,119;266,298,133;6,158,3;266,120,130;6,121,160;16,161,133;266,13,145;301,138,4;5,148,143;,,;148,136,263;161,159,133;295,264,9;16,160,140;270,126,139;14,119,2;155,6,129;,,;11,299,135;134,151,154;265,123,7;149,270,137;295,301,126;125,140,265;297,269,264;267,157,137;,,;267,126,137;302,299,268;127,149,299;148,10,119;264,130,2;,,;162,132,150;,,;9,159,118;13,149,142;,,;150,123,296;160,300,171;10,131,153;12,145,8;130,148,10;132,151,138;138,140,127;120,150,302;155,162,141;124,302,146;297,138,4;11,144,148;144,298,268;127,143,128;271,121,15;150,268,155;,,","gidset":"187,191,193;3,92,161;169,93,161;92,111,115;211,200,213;203,211,201;2,4,3;102,6,169;2,169,72;161,102,7;161,118,4;193,209,210;93,115,170;118,92,122;182,180,178;118,3,1;2,4,105;2,111,161;72,170,105;122,2,168;4,170,93;209,194,198;185,206,188;7,92,105;115,5,111;105,170,6;169,93,111;1,3,4;161,118,7;170,72,7;161,2,92;189,179,183;2,3,5;210,186,199;115,72,1;72,169,115;3,5,168;208,184,190;122,170,111;104,172,77;169,168,6;4,168,102;181,207,205;4,6,102;2,7,122;105,6,3;170,122,105;92,93,5;1,115,72;191,193,192;102,6,115;168,92,105;1,111,93;203,202,212;161,2,5;5,169,72;3,115,5;102,122,72;72,161,5;178,184,181","timerateset":"22,2,2;3,90,47;47,2,4;60,47,70;2,1,22;2,90,90;2,3,60;22,18,4;2,90,2;22,70,1;60,3,60;2,60,2;3,2,4;47,2,40;,,;2,30,2;3,9,60;3,2,47;60,1,2;2,45,30;60,90,22;10,22,30;,,;4,3,2;2,3,4;0.9,80,4;2,2,2;3,3,45;5,2,0.9;3,2,2;2,3,2;,,;2,45,2;1,3,0.9;2,2,3;2,22,90;2,2,22;,,;30,30,38;,,;47,9,90;60,2,30;,,;38,80,3;1,3,22;22,2,3;4,2,4;2,2,22;30,3,2;2,2,2;90,38,1;10,30,2;3,1,30;3,2,4;4,2,2;2,3,0.9;2,40,2;0.9,70,60;38,0.9,10;,,","spatialrateset":"25,55*55,70;7,25*25,25;25,70,25;55*55,25,40*10;70,90,45;70,55*15,60*18;70,7,30;25,70,25;70,25*25,30;25,40*10,140;70,140,30;70,30,40*40;7,20,25;25,55*55,40*40;,,;55*55,30,70;140,140,30;7,70,30*30;70,140,20;70,50*50,20;30,60*18,25;20,25,30;,,;30*30,7,30;30,55*15,20;70,30*30,25;55*55,70,20;7,7,50*50;30*30,20,70;7,70,70;70,90,20;,,;70,50*50,20;7,7,70;30,55*55,7;55*55,30*30,60*18;70,30,25;,,;140,30,55*55;,,;30*30,140,55*15;30,55*55,20;,,;55*55,30*30,7;140,7,45;30*30,30,20;30*30,40*40,25;30,55*55,30*30;30,55*15,20;20,20,30;25*25,55*55,7;20,140,20;30*30,7,40*40;7,20,25;30*30,40*40,55*55;40*40,7,70;30,40*40,30;70,40*10,70;55*55,70,20;,,","traintimeset":"1442234625,1442271744,1442322414,1442359492,1442404671,1442445192,1442494515,1442532205,1442659515,1442713073,1442751740,1442791042,1442838160,1442876304,1442963677,1443010064,1443050438,1443096434,1443137060,1443185551,1443237433,1443348786,1443396569,1443482665,1443573177,1443612446,1443658556,1443703486,1443742488,1443782728,1443834345,1443920289,1443960079,1444000289,1444045077,1444093964,1444213060,1444262205,1444299545,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0","endtimeset":"1442235527,1442272663,1442323316,1442360392,1442405573,1442446093,1442495416,1442533106,1442660417,1442713974,1442752640,1442791943,1442839075,1442877204,1442964578,1443010964,1443051338,1443097334,1443137962,1443186461,1443238334,1443349688,1443397470,1443483566,1443574113,1443613362,1443659457,1443704387,1443743402,1443783629,1443835247,1443921191,1443960980,1444001191,1444045979,1444094882,1444213961,1444263106,1444300446,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0","trainscoreset":"1430,594,464,0,1200,1000,1832,2290,2844,1690,0,1200,2722,0,3800,0,0,0,2400,6837,2500,1100,3500,1434,1160,2800,7529,3396,3310,3500,500,5800,2021,390,2631,2955,7801,6500,3120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0","trainprecision":"5,3,1,0,3,4,5,3,5,4,0,5,5,0,2,0,0,0,2,2,3,4,1,3,5,3,4,5,1,4,1,3,5,2,5,5,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0","l_jzsl":"13","r_jzsl":"9","l_rsxz":"1","r_rsxz":"2","tskjc1":"1","yw":"1","content":"\u25cf \u77eb\u6b63\u773c\u955c\u4e0d\u7ba1\u662f\u8bad\u7ec3\u65f6\u95f4\u8fd8\u662f\u975e\u8bad\u7ec3\u65f6\u95f4\u90fd\u8981\u575a\u6301\u6234\uff1b\r\n\u25cf \u975e\u8bad\u7ec3\u65f6\u95f4\u662f\u5426\u9700\u906e\u76d6\u53ca\u906e\u76d6\u6bd4\u4f8b\uff0c\u8bf7\u9075\u533b\u5631\uff1b\r\n\u25cf \u8bf7\u786e\u8ba4\u5df2\u906e\u76d6\u597d\u5de6\u773c\u540e\u5f00\u59cb\u8bad\u7ec3\u3002","content2":""},"lasttrain":"1440370555","nowtime":1444347170},"update":{"current_version":"3.0.4","title":"","message":"\u591a\u5b9d\u89c6\u65b0\u7248\u672c 3.0.4\r\n1. \u589e\u52a0\u5bf9\u4e2d\u6587\u7e41\u4f53\u7684\u652f\u6301\uff1b\r\n2. \u4f18\u5316\u523a\u6fc0\u6a21\u5f0f\uff0c\u8fd0\u884c\u66f4\u6d41\u7545\u3002","status":0,"url":"itms-apps:\/\/itunes.apple.com\/WebObjects\/MZStore.woa\/wa\/viewSoftware?id=941554235","pay":1}}}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/scheme
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"44","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: pidset=&sr=&gidset=104&source=dbs%5Fipad&tr=
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:32:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":{"patternRows1":[],"patternRows2":[],"gameRows1":[{"gid":"104","sname":"jq_cxsdd","lname":"\u4ece\u5c0f\u6570\u5230\u5927","groupid":"2","picture":"2009020314410651741.jpg","help1":"\u5728\u9650\u5b9a\u65f6\u95f4\u5185\u6309\u5c0f\u5230\u5927\u7684\u987a\u5e8f\u70b9\u51fb\u5b8c\u6240\u6709\u6570\u5b57\u3002","help2":"\u5728\u9650\u5b9a\u65f6\u95f4\u5185\u6309\u5c0f\u5230\u5927\u7684\u987a\u5e8f\u70b9\u51fb\u5b8c\u6240\u6709\u6570\u5b57\u3002"}],"gameRows2":[]}}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/scheme
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"44","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: pidset=&sr=&gidset=172&source=dbs%5Fipad&tr=
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:32:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":{"patternRows1":[],"patternRows2":[],"gameRows1":[{"gid":"172","sname":"jq_fkcfk","lname":"\u75af\u72c2\u5403\u65b9\u5757","groupid":"2","picture":"2009052517143928098.jpg","help1":"\u7528\u9f20\u6807\u63a7\u5236\u9ec4\u8272\u65b9\u5757\u79fb\u52a8\uff0c\u9700\u8eb2\u5f00\u7ea2\u8272\u65b9\u5757\uff0c\u5403\u6389\u7eff\u8272\u65b9\u5757\u3002","help2":"\u63a7\u5236\u9ec4\u8272\u65b9\u5757\u79fb\u52a8\uff0c\u9700\u8eb2\u5f00\u7ea2\u8272\u65b9\u5757\uff0c\u5403\u6389\u7eff\u8272\u65b9\u5757\u3002"}],"gameRows2":[]}}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/scheme
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"43","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: pidset=&sr=&gidset=77&source=dbs%5Fipad&tr=
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:32:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":{"patternRows1":[],"patternRows2":[],"gameRows1":[{"gid":"77","sname":"jq_jyzxm","lname":"\u8bb0\u5fc6\u627e\u5c0f\u732b","groupid":"2","picture":"2008121614374670501.jpg","help1":"\u6e38\u620f\u5f00\u59cb\u524d\u5c0f\u732b\u4f1a\u6309\u5148\u540e\u987a\u5e8f\u4ece\u5730\u6d1e\u91cc\u51fa\u6765\uff0c\u6e38\u620f\u5f00\u59cb\u540e\u5c0f\u732b\u8fd4\u56de\u5730\u6d1e\uff0c\u4f60\u9700\u8981\u6309\u987a\u5e8f\u627e\u51fa\u6240\u6709\u5c0f\u732b\u3002","help2":"\u6e38\u620f\u5f00\u59cb\u524d\u5c0f\u732b\u4f1a\u6309\u5148\u540e\u987a\u5e8f\u4ece\u5730\u6d1e\u91cc\u51fa\u6765\uff0c\u6e38\u620f\u5f00\u59cb\u540e\u5c0f\u732b\u8fd4\u56de\u5730\u6d1e\uff0c\u4f60\u9700\u8981\u6309\u987a\u5e8f\u627e\u51fa\u6240\u6709\u5c0f\u732b\u3002"}],"gameRows2":[]}}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/scheme
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"54","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: pidset=9&sr=30%2A30&gidset=169&source=dbs%5Fipad&tr=47
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:32:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":{"patternRows1":[{"pid":"9","sname":"fbqpg_py","lname":"\u65b9\u6ce2\u68cb\u76d8\u683c_\u5e73\u79fb","groupid":"6","parentgroupid":"1","parameter":"<?xml version=\"1.0\" encoding=\"utf-8\" ?>\r\n<theme name=\"fbqpg_py\">\r\n  <viewsize>1024*768<\/viewsize>\r\n  <frequency1>25<\/frequency1>\r\n  <frequency2>10*15<\/frequency2>\r\n  <phase>\r\n    <section>\r\n      <time>50<\/time>      \r\n      <direction>0<\/direction>\r\n      <color1>0x000000<\/color1>\r\n      <color2>0xffffff<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>25<\/time>      \r\n      <direction>45<\/direction>\r\n      <color1>0xff0000<\/color1>\r\n      <color2>0x00ff00<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>50<\/time>\r\n      <direction>90<\/direction>\r\n      <color1>0x000000<\/color1>\r\n      <color2>0xffffff<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>25<\/time>      \r\n      <direction>135<\/direction>\r\n      <color1>0x0000ff<\/color1>\r\n      <color2>0xffff00<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>50<\/time>      \r\n      <direction>180<\/direction>\r\n      <color1>0x000000<\/color1>\r\n      <color2>0xffffff<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>25<\/time>      \r\n      <direction>225<\/direction>\r\n      <color1>0xff0000<\/color1>\r\n      <color2>0x00ff00<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>50<\/time>      \r\n      <direction>270<\/direction>\r\n      <color1>0x000000<\/color1>\r\n      <color2>0xffffff<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>25<\/time>      \r\n      <direction>315<\/direction>\r\n      <color1>0x0000ff<\/color1>\r\n      <color2>0xffff00<\/color2>\r\n    <\/section>\r\n  <\/phase>\r\n<\/theme>","mintimerate":"20","maxtimerate":"60","defaulttimerate":"25","minspatialrate":"10*13","maxspatialrate":"100*100","defaultspatialrate":"10*10","filename":"fbqpg_py.sjs","picture":"fbqpg_py.jpg","remark":"","frequency1":"47","frequency2":"30*30"}],"patternRows2":[],"gameRows1":[{"gid":"169","sname":"jx_xnxz","lname":"\u5c0f\u9e1f\u884c\u8d70","groupid":"1","picture":"2009052517131751842.jpg","help1":"\u6309\u952e\u76d8\u4e0a\u7684\u201c\u7a7a\u683c\u952e\u201d\u5f00\u59cb\u6e38\u620f\uff0c\u7528\u5de6\u53f3\u65b9\u5411\u952e\u6765\u63a7\u5236\u5c0f\u9e1f\u7684\u5e73\u8861\uff0c\u8ba9\u5c0f\u9e1f\u4fdd\u6301\u5e73\u8861\u884c\u8d70\u3002","help2":"\u70b9\u51fb\u5c0f\u9e1f\u5f00\u59cb\u6e38\u620f\uff0c\u5de6\u53f3\u6446\u52a8iPad\u901a\u8fc7\u91cd\u529b\u611f\u5e94\u6765\u63a7\u5236\u5c0f\u9e1f\u7684\u5e73\u8861\uff0c\u8ba9\u5c0f\u9e1f\u4fdd\u6301\u5e73\u8861\u884c\u8d70\u3002"}],"gameRows2":[]}}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/scheme
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"51","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: pidset=159&sr=140&gidset=168&source=dbs%5Fipad&tr=9
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:32:51 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":{"patternRows1":[{"pid":"159","sname":"txwjcj_lxxx","lname":"\u540c\u5fc3\u4e94\u89d2\u523a\u6fc0_\u79bb\u5fc3\u5411\u5fc3","groupid":"28","parentgroupid":"1","parameter":"<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n<theme name=\"m14_qh\">\r\n   <viewsize>1024*768<\/viewsize>\r\n  <frequency1>3<\/frequency1>\r\n  <frequency2>95<\/frequency2>\r\n  <ration>1.18<\/ration>\r\n  <phase>\r\n    <section>\r\n      <time>60<\/time>\r\n      <color1>0xFFFFFF<\/color1>\r\n      <color2>0x000000<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>60<\/time>\r\n      <color1>0xFF0000<\/color1>\r\n      <color2>0x000000<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>30<\/time>\r\n      <color1>0xFFFFFF<\/color1>\r\n      <color2>0x000000<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>30<\/time>\r\n      <color1>0xFF0000<\/color1>\r\n      <color2>0xFFFFFF<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>60<\/time>\r\n      <color1>0xFFFF00<\/color1>\r\n      <color2>0x0000FF<\/color2>\r\n    <\/section>\r\n    <section>\r\n      <time>60<\/time>\r\n      <color1>0x000000<\/color1>\r\n      <color2>0xFFFFFF<\/color2>\r\n    <\/section>\r\n  <\/phase>\r\n<\/theme>","mintimerate":"1","maxtimerate":"20","defaulttimerate":"3","minspatialrate":"95","maxspatialrate":"155","defaultspatialrate":"95","filename":"txwjcj_lxxx.sjs","picture":"txwjcj_lxxx.jpg","remark":"","frequency1":"9","frequency2":"140"}],"patternRows2":[],"gameRows1":[{"gid":"168","sname":"jx_dhq","lname":"\u8eb2\u7ea2\u7403","groupid":"1","picture":"2009052517235425505.jpg","help1":"\u7528\u9f20\u6807\u79fb\u52a8\u63a7\u5236\u84dd\u8272\u5c0f\u7403\u79fb\u52a8\uff0c\u6ce8\u610f\u8eb2\u907f\u7ea2\u8272\u7403\u3002","help2":"\u7528\u624b\u6307\u79fb\u52a8\u63a7\u5236\u84dd\u8272\u5c0f\u7403\u79fb\u52a8\uff0c\u6ce8\u610f\u8eb2\u907f\u7ea2\u8272\u7403\u3002"}],"gameRows2":[]}}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/scheme
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"54","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: pidset=118&sr=55%2A15&gidset=6&source=dbs%5Fipad&tr=90
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:32:51 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":{"patternRows1":[{"pid":"118","sname":"lpgcj_lxxx","lname":"\u7f57\u76d8\u683c\u523a\u6fc0_\u79bb\u5fc3\u5411\u5fc3","groupid":"14","parentgroupid":"1","parameter":"<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n<theme name=\"m1_lx\">\r\n   <viewsize>768*768<\/viewsize>\r\n  <frequency1>70<\/frequency1>\r\n  <frequency2>20*10<\/frequency2>\r\n  <widthratio>1<\/widthratio>\r\n  <angleratio>1<\/angleratio>\r\n  <differ>0<\/differ>\r\n  <phase>\r\n    <section>\r\n      <time>180<\/time>\r\n      <direction>A<\/direction>\r\n      <color1>0x000000<\/color1>\r\n      <color2>0xFFFFFF<\/color2>\r\n    <\/section> \r\n    <section>\r\n      <time>120<\/time>\r\n      <direction>A<\/direction>\r\n      <color1>0xFF0000<\/color1>\r\n      <color2>0x00FF00<\/color2>\r\n    <\/section>   \r\n  <\/phase>\r\n<\/theme>","mintimerate":"10","maxtimerate":"180","defaulttimerate":"70","minspatialrate":"20*5","maxspatialrate":"100*90","defaultspatialrate":"20*10","filename":"lpgcj_lxxx.sjs","picture":"lpgcj_lxxx.jpg","remark":"","frequency1":"90","frequency2":"55*15"}],"patternRows2":[],"gameRows1":[{"gid":"6","sname":"jx_cgs","lname":"\u7a7f\u94a2\u4e1d","groupid":"1","picture":"2008121509311658412.jpg","help1":"\u9f20\u6807\u70b9\u51fb\u53f3\u8fb9\u7684\u521a\u4e1d\u72b6\u7684\u7ebf\u6761\uff0c\u5e76\u6309\u4f4f\u9f20\u6807\u5de6\u952e\uff0c\u62d6\u52a8\u9f20\u6807\u5c06\u53f3\u8fb9\u7684\u94a2\u4e1d\u4ece\u53f3\u5230\u5de6\u4ece\u4e2d\u95f4\u969c\u788d\u7269\u7684\u7a7a\u9699\u95f4\u7a7f\u8fc7\u3002","help2":"\u7528\u624b\u6307\u62d6\u52a8\u94a2\u4e1d\u7a7f\u8fc7\u6321\u677f\uff0c\u94a2\u4e1d\u7ebf\u4e0d\u80fd\u78b0\u5230\u4e0a\u4e0b2\u5757\u6321\u677f\u3002"}],"gameRows2":[]}}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/start
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"35","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad&times=1&serial=40
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:33:02 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:33:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:34:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:35:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:36:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:37:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:38:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:39:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:40:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:41:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:42:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:43:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:44:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:45:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:46:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:47:50 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/update_recipe
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"45","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: rank=2&source=dbs%5Fipad&serial=40&score=1756
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Thu, 08 Oct 2015 23:48:03 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":{"win":33}}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/hearttime
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Fri, 09 Oct 2015 10:40:35 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
+START: ------------------
+REQUEST_URL: http://www.topeye.cn/netserver/patient/index.php/patient/logout
+REQUEST_METHOD: POST
+REQUEST_HEADER: {"Host":"www.topeye.cn","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iOS; U; zh-Hans) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/18.0","Accept":"*/*","Referer":"app:/dobosoTrain.swf","Content-Type":"application/x-www-form-urlencoded","Connection":"keep-alive","x-flash-version":"18,0,0,161","Cookie":"PHPSESSID=36g9850501a6ehf08009eg6304","Authorization":"Basic YmpzeTAwMDk5OjYzOTE5N2EwOWQ2MjI5ZWM=","Content-Length":"17","Proxy-Connection":"keep-alive","Accept-Encoding":"gzip, deflate"}
+REQUEST_BODY: source=dbs%5Fipad
+RESPONSE_STATUS: 200
+RESPONSE_HEADER: {"Server":"nginx","Date":"Fri, 09 Oct 2015 10:40:51 GMT","Content-Type":"text/html","Transfer-Encoding":"chunked","Connection":"keep-alive","Vary":"Accept-Encoding","X-Powered-By":"PHP/5.3.28","Expires":"Thu, 19 Nov 1981 08:52:00 GMT","Cache-Control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","Pragma":"no-cache","Content-Encoding":"gzip"}
+RESPONSE_BODY: {"ret":0,"msg":"ok","data":[]}
+EOF
